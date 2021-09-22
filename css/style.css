@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+body {
+  background-color: #121212;
+}
+header {
+  width: 100%;
+  height: 90px;
+}
+
+.main_title {
+  font-size: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headphones_title {
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.headphones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 5%;
+  width: 450px;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+section {
+  padding: 0 20%;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+}
+.keyboard_title {
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 5%;
+  width: 450px;
+  height: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+ul {
+  color: white;
+}
+
+.img_hyperx {
+  width: auto;
+  height: 100px;
+}
+
+.background_hyperx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7%;
+  border-radius: 8px;
+  width: 170px;
+  height: 100px;
+}
+
+.container_hyperx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  border-radius: 8px;
+  height: 150px;
+  background: white;
+  transition: background-color 0.2s;
+  margin-bottom: 15%;
+}
+
+.container_hyperx:hover {
+  background-color: rgb(250, 154, 0);
+}
+
+.container_logitechhp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  border-radius: 8px;
+  height: 150px;
+  background: white;
+  transition: background-color 0.2s;
+}
+
+.container_logitechhp:hover {
+  background-color: rgb(250, 154, 0);
+}
+
+.img_logitechhp {
+  width: auto;
+  height: 100px;
+}
+
+.background_logitechhp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7%;
+  border-radius: 8px;
+  width: 170px;
+  height: 100px;
+}
+
+.container_hyperxhp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  border-radius: 8px;
+  height: 150px;
+  background: white;
+  transition: background-color 0.2s;
+  margin-bottom: 15%;
+}
+
+.container_hyperxhp:hover {
+  background-color: rgb(250, 154, 0);
+}
+
+.container_logitech {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  border-radius: 8px;
+  height: 150px;
+  background: white;
+  transition: background-color 0.2s;
+}
+
+.img_hyperxhp {
+  width: auto;
+  height: 100px;
+}
+
+.background_hyperxhp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7%;
+  border-radius: 8px;
+  width: 170px;
+  height: 100px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_logitech:hover {
+  background-color: rgb(250, 154, 0);
+}
+
+.img_logitech {
+  width: auto;
+  height: 100px;
+}
+
+.background_logitech {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7%;
+  border-radius: 8px;
+  width: 170px;
+  height: 100px;
+}
+
+.microphone_title {
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.microphone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 5%;
+  width: 450px;
+  height: 100%;
+}
+
+.container_blueyeti {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  border-radius: 8px;
+  height: 150px;
+  background: white;
+  transition: background-color 0.2s;
+  margin-bottom: 15%;
+}
+
+.container_blueyeti:hover {
+  background-color: rgb(250, 154, 0);
+}
+.img_blueyeti {
+  width: auto;
+  height: 100px;
+}
+
+.background_blueyeti {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7%;
+  border-radius: 8px;
+  width: 170px;
+  height: 100px;
+}
+
+.container_hyperxqc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  border-radius: 8px;
+  height: 150px;
+  background-color: white;
+  transition: background-color 0.2s;
+}
+
+.container_hyperxqc:hover {
+  background-color: rgb(250, 154, 0);
+}
+
+.img_hyperxqc {
+  width: auto;
+  height: 100px;
+}
+
+.background_hyperxqc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7%;
+  border-radius: 8px;
+  width: 170px;
+  height: 100px;
+}
+
+.si {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  background: rgb(58, 58, 58);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
